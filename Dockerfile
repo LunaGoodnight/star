@@ -25,7 +25,7 @@ RUN npm run build
 RUN chown -R appuser:appgroup /app
 
 # Expose the app port (Next.js default is 3000)
-EXPOSE 3001
+EXPOSE 3000
 
 # Switch to non-root user
 USER appuser
